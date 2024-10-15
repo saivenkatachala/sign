@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign & Fortune Cookie Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zodiac Sign & Fortune Cookie Generator</h1>
+        <form id="zodiacForm">
+            <label for="name">Enter your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="dob">Enter your Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <button type="submit">Find My Zodiac Sign & Fortune</button>
+        </form>
+        
+        <div id="result" class="hidden">
+            <h2>Hello, <span id="userName"></span>!</h2>
+            <p>Your Zodiac sign is:</p>
+            <p><strong id="zodiacSignEnglish"></strong> (<strong id="zodiacSignTelugu"></strong>)</p>
+            <p>Your age is <span id="age"></span> years old.</p>
+            
+            <!-- Section for displaying the zodiac image -->
+            <div id="zodiacImage"></div>
+            
+            <!-- New Section for Fortune Message -->
+            <div id="fortuneMessageContainer">
+                <h3>Your Fortune:</h3>
+                <p id="fortuneMessage"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
