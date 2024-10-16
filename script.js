@@ -91,7 +91,7 @@ function displayZodiacImage(zodiacSignEnglish) {
         'Libra': 'libra.png',
         'Scorpio': 'scorpio.png',
         'Sagittarius': 'sagittarius.png',
-        'Capricorn': 'capricorn.png',
+        'Capricorn': 'capricon.png',
         'Aquarius': 'aquarius.png',
         'Pisces': 'pisces.png'
     };
